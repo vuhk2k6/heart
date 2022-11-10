@@ -93,7 +93,11 @@ body {
 }
 
 #music-container {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @-webkit-keyframes spin {
